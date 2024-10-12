@@ -66,11 +66,8 @@ function WordsPage() {
     infinite: true,
     speed: 3000,
     slidesToShow: 1,
-    slidesToScroll: 0,
-    autoplay: true,
-    autoplaySpeed: 0,
+    slidesToScroll: 1,
     centerMode: false,
-    cssEase: "linear",
     vertical: true, // Scroll vertical
     verticalSwiping: true, // Permite hacer swipe verticalmente
     arrows: false,
