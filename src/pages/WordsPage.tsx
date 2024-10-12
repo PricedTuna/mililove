@@ -12,51 +12,51 @@ function WordsPage() {
 
   const images: CardImage[] = [
     {
-      imageUrl: "public/img/edgarmili_past1.jpeg",
+      imageUrl: "img/edgarmili_past1.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_callejon2.jpeg",
+      imageUrl: "img/edgarmili_callejon2.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_malecon3.jpeg",
+      imageUrl: "img/edgarmili_malecon3.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_boda.jpeg",
+      imageUrl: "img/edgarmili_boda.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_past2.jpeg",
+      imageUrl: "img/edgarmili_past2.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_past3.jpeg",
+      imageUrl: "img/edgarmili_past3.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_callejon.jpeg",
+      imageUrl: "img/edgarmili_callejon.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_malecon.jpeg",
+      imageUrl: "img/edgarmili_malecon.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_parq_sinaloa.jpeg",
+      imageUrl: "img/edgarmili_parq_sinaloa.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_vestido.jpeg",
+      imageUrl: "img/edgarmili_vestido.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_malecon2.jpeg",
+      imageUrl: "img/edgarmili_malecon2.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "public/img/edgarmili_malecon3.jpeg",
+      imageUrl: "img/edgarmili_malecon3.jpeg",
       width: imageWidth,
     },
   ];
