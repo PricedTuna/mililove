@@ -1,12 +1,6 @@
-import React, { useState } from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import { useState } from 'react';
+import { Modal } from 'react-bootstrap';
 import EscritoComponent from '../components/cartas/EscritoComponent';
-
-// Definir la estructura de 'escrito' para tipar correctamente
-interface Escrito {
-  text: string;
-  title: string;
-}
 
 interface Poema {
   title: string;

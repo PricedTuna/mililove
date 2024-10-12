@@ -4,7 +4,7 @@ interface Props {
   text: string
 }
 
-function EscritoComponent({text}: Props) {
+function EscritoComponent({text: _text}: Props) {
 
   const { width } = useWindowSize();
   return (
