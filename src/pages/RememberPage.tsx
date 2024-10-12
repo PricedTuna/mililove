@@ -57,9 +57,6 @@ const RememberPage = () => {
 
       {/* Modal para mostrar el contenido del poema */}
       <Modal show={show} onHide={handleClose} centered>
-        <Modal.Header closeButton>
-          <Modal.Title className="text-dark">Texto Completo</Modal.Title>
-        </Modal.Header>
         <Modal.Body className="text-dark" dangerouslySetInnerHTML={{ __html: modalContent }} />
       </Modal>
     </div>
