@@ -8,7 +8,7 @@ function EscritoComponent({text: _text}: Props) {
 
   const { width } = useWindowSize();
   return (
-    <img src="src/assets/img/carta/escribiendo.png" className="img-fluid" width={width <= 480 ? 90 : width <= 600 ? 150 : width >= 1024 ? 200 : 200} />
+    <img src="public/img/carta/escribiendo.png" className="img-fluid" width={width <= 480 ? 90 : width <= 600 ? 150 : width >= 1024 ? 200 : 200} />
   )
 }
 

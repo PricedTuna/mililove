@@ -6,7 +6,7 @@ import { Vector3 } from "three";
 // Componente que carga y renderiza el modelo
 const Model: React.FC = () => {
   // Cargar un modelo GLTF/GLB
-  const { scene } = useGLTF("src/assets/origami_flower.glb");
+  const { scene } = useGLTF("public/origami_flower.glb");
 
   return <primitive object={scene} scale={new Vector3(1, 1, 1)} />;
 };

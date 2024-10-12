@@ -13,51 +13,51 @@ function HeroComponent() {
   const imageWidth: number = width <= 480 ? 70 : width <= 600 ? 120 : width >= 1024 ? 120 : 120
   const images: CardImage[] = [
     {
-      imageUrl: "src/assets/img/edgarmili_past1.jpeg",
+      imageUrl: "public/img/edgarmili_past1.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_callejon2.jpeg",
+      imageUrl: "public/img/edgarmili_callejon2.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_malecon3.jpeg",
+      imageUrl: "public/img/edgarmili_malecon3.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_boda.jpeg",
+      imageUrl: "public/img/edgarmili_boda.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_past2.jpeg",
+      imageUrl: "public/img/edgarmili_past2.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_past3.jpeg",
+      imageUrl: "public/img/edgarmili_past3.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_callejon.jpeg",
+      imageUrl: "public/img/edgarmili_callejon.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_malecon.jpeg",
+      imageUrl: "public/img/edgarmili_malecon.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_parq_sinaloa.jpeg",
+      imageUrl: "public/img/edgarmili_parq_sinaloa.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_vestido.jpeg",
+      imageUrl: "public/img/edgarmili_vestido.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_malecon2.jpeg",
+      imageUrl: "public/img/edgarmili_malecon2.jpeg",
       width: imageWidth,
     },
     {
-      imageUrl: "src/assets/img/edgarmili_malecon3.jpeg",
+      imageUrl: "public/img/edgarmili_malecon3.jpeg",
       width: imageWidth,
     },
   ];
@@ -70,7 +70,7 @@ function HeroComponent() {
       }}
     >
       <img
-        src="src/assets/img/draws/lianas_flores_2.png"
+        src="public/img/draws/lianas_flores_2.png"
         alt="liana y flores dibujadas a mano"
         width="100%"
         className="img-fluid"
@@ -162,7 +162,7 @@ function HeroComponent() {
         }}
       />
       <img
-        src="src/assets/img/draws/lianas_flores_2.png"
+        src="public/img/draws/lianas_flores_2.png"
         alt="liana y flores dibujadas a mano"
         width="100%"
         className="img-fluid"

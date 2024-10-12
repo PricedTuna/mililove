@@ -13,10 +13,6 @@ const escritos: Poema[] = [
     text: `Como el sol por las mañanas\nAsomas e iluminas\nAsomas la felicidad e\nIluminas mi camino\nUna luz relajante\nUna luz tranquila\nUna luz bella\nUna luz que ilumina`,
   },
   {
-    title: "Mi luz",
-    text: `Como el sol por las mañanas\nAsomas e iluminas\nAsomas la felicidad e\nIluminas mi camino\nUna luz relajante\nUna luz tranquila\nUna luz bella\nUna luz que ilumina`,
-  },
-  {
     title: "La paz",
     text: `Cuando te miro, me das paz\nDespertar y verte a mi lado\nA mi lado sonriendo durmiendo\nEres lo más bello y más calmante\nEres la paz, como un cielo brillante`,
   },

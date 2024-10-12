@@ -6,7 +6,7 @@ interface Props {
 
 function CartaComponent({text, width = 90}: Props) {
   return (
-    <img src="src/assets/img/carta/carta.png" className="img-fluid" onClick={() => {console.log(text)}} width={width} />
+    <img src="public/img/carta/carta.png" className="img-fluid" onClick={() => {console.log(text)}} width={width} />
   )
 }
 
