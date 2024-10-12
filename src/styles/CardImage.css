@@ -1,0 +1,25 @@
+.polaroid {
+  background-color: white; /* Color de fondo blanco */
+  border: 5px solid white; /* Borde blanco */
+  padding: 10px; /* Espacio entre la imagen y el borde */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
+  display: inline-block; /* Permite que se ajuste el tamaño del contenedor */
+  text-align: center; /* Centra el contenido */
+  margin: 10px; /* Espacio alrededor de la polaroid */
+  position: relative; /* Posiciona elementos internos relativos */
+}
+
+.polaroid-image {
+  border-radius: 5px; /* Bordes redondeados para la imagen */
+  display: block; /* Asegura que la imagen sea un bloque */
+}
+
+.polaroid-footer {
+  height: 20px; /* Altura del pie de la Polaroid */
+  background-color: white; /* Color de fondo blanco */
+  margin-top: 10px; /* Espacio entre la imagen y el pie */
+  position: absolute; /* Permite posicionar el pie relativo a la polaroid */
+  bottom: 0; /* Alinea el pie en la parte inferior */
+  left: 0;
+  right: 0; /* Alinea el pie a los lados */
+}
