@@ -78,16 +78,13 @@ function HeroComponent() {
       <InfiniteCarousel
         images={images}
         settings={{
-          dots: false,
+          dots: true,
           infinite: true,
-          arrows: false,
+          arrows: true,
           speed: 4000,
-          cssEase: "linear",
           centerMode: false,
           slidesToScroll: 1,
           slidesToShow: 5,
-          autoplay: true,
-          autoplaySpeed: 0,
           rtl: false, // Auto-scroll hacia la izquierda
           responsive: [
             {
@@ -128,16 +125,13 @@ function HeroComponent() {
       <InfiniteCarousel
         images={images}
         settings={{
-          dots: false,
+          dots: true,
           infinite: true,
+          arrows: true,
           speed: 4000,
-          cssEase: "linear",
-          arrows: false,
           centerMode: false,
           slidesToScroll: 1,
           slidesToShow: 5,
-          autoplay: true,
-          autoplaySpeed: 0,
           rtl: true, // Auto-scroll hacia la izquierda
           responsive: [
             {
