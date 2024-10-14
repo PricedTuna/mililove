@@ -67,7 +67,7 @@ function WordsPage() {
     speed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    centerMode: false,
+    centerMode: true,
     vertical: true, // Scroll vertical
     verticalSwiping: true, // Permite hacer swipe verticalmente
     arrows: false,
